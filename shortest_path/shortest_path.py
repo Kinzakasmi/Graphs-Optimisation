@@ -1,6 +1,6 @@
 import networkx as nx
 import numpy as np
-from shortest_paths import search_station, StatsPatch, Station
+from ratp_utils import search_station, StatsPatch, Station
 
 def shortest_path(g, source, target, method, **kwargs):
     """Finds the shortest path between source and target.
